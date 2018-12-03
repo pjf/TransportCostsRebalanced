@@ -1,0 +1,59 @@
+"workshopitem"
+{
+	"appid"		"671440"
+	"title"		"Transport Costs Rebalanced"
+	"description"		"[h1]Rebalances transport costs to encourage more varied transport networks[/h1]
+
+In the vanilla game, trucks end up [i]always[/i] being the best transport option, since they're the cheapest per tile per unit of cargo, have the cheapest dispatch costs, and can re-use roads that have always been built.
+
+Sure, everything else is faster, but in most cases it's [i]throughput[/i] and not speed that matters most.
+
+[b]Transport Costs Rebalanced[/b] revamps the dispatch costs to encourage more varied transport networks.
+
+[h1]Delivery Trucks[/h1]
+
+Delivery trucks now have [i]no[/i] fixed dispatch cost, but a [i]much[/i] higher cost-per-tile. This means you're not penalised as much for having a warehouse as part of your production chain, but you'll find it much more expensive if you try to use delivery trucks over long distances.
+
+[h1]Depot Trucks[/h1]
+
+Depot (bulk) trucks are now the champions of mid-range deliveries. Their per-tile cost is higher than vanilla RoI, but their fixed dispatch costs are lowered. It now makes sense to have distribution warehouses near city centres that depot trucks can deliver to.
+
+[h1]Trains[/h1]
+
+Trains are now much more cost-effective when transporting cargo over longer distances, being even cheaper than Depot Trucks per unit of cargo delivered. The extra cost of building rail networks will now pay off when moving bulk cargo longer distances.
+
+[h1]Boats[/h1]
+
+Boats are the most cost-effective way to move bulk cargo over a long distance, but are now [i]much[/i] slower than in vanilla RoI. Their low cost is offset by the fact that rivers are not always direct, and terraforming is very expensive.
+
+[h1]Zeppelins[/h1]
+
+Zeppelins are unchanged from the vanilla release.
+
+[h1]Transport Costs[/h1]
+
+[table]
+[tr][th]Vehicle[/th][th]Vanilla Cost[/th][th]New Cost[/th][th]Capacity[/th][/tr]
+[tr][td]Delivery Truck[/td][td]$100 + $5/tile[/td][td]$0 + $10/tile[/td][td]1 units [/td][/tr]
+[tr][td]Depot Truck[/td][td]$250 + $7/tile[/td][td]$150 + $10/tile[/td][td]2 units (3 with upgrades)[/td][/tr]
+[tr][td]Train[/td][td]$500 + $18/tile[/td][td]$500 + $12/tile[/td][td]4 units (6 with upgrdes)[/td][/tr]
+[tr][td]Boat[/td][td]$750 + $21/tile[/td][td]$500 + $16/tile[/td][td]6 units (9 with cargo)[/td][/tr]
+[/table]
+
+Note: Capacity is unchanged from vanilla, and is included only for reference.
+
+[h1]Feedback[/h1]
+
+I would [i]love[/i] feedback on how you've found the rebalance!
+
+[h1]Source code and license[/h1]
+
+Distributed under an MIT license.
+
+Source can be found [url=https://github.com/pjf/TransportCostsRebalanced]on github[/url]."
+	"visibility"		"0"
+	"contentfolder"		"/home/pjf/Steam/SteamApps/common/RiseOfIndustry/Mods/TransportCostsRebalanced"
+	"previewfile" "/home/pjf/Steam/SteamApps/common/RiseOfIndustry/Mods/TransportCostsRebalanced/preview.png"
+	"changeNote"		"Thumbnail update"
+	"publishedfileid"		"1581416174"
+}
